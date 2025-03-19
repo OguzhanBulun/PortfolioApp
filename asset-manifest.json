@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/PortfolioApp/static/js/main.189cee3e.js",
+    "main.js": "/PortfolioApp/static/js/main.74273a20.js",
     "index.html": "/PortfolioApp/index.html",
-    "main.189cee3e.js.map": "/PortfolioApp/static/js/main.189cee3e.js.map"
+    "main.74273a20.js.map": "/PortfolioApp/static/js/main.74273a20.js.map"
   },
   "entrypoints": [
-    "static/js/main.189cee3e.js"
+    "static/js/main.74273a20.js"
   ]
 }
