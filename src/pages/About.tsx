@@ -11,7 +11,6 @@ const About: React.FC = () => {
         </Typography>
 
         <Grid container spacing={4} justifyContent="center">
-          {/* Education Section */}
           <Grid item xs={12} sm={6} md={4}>
             <Card sx={{ borderRadius: 3, boxShadow: 3, transition: "transform 0.3s", '&:hover': { transform: "scale(1.05)" } }}>
               <CardContent>
@@ -28,7 +27,6 @@ const About: React.FC = () => {
             </Card>
           </Grid>
 
-          {/* Work Experience Section */}
           <Grid item xs={12} sm={6} md={4}>
             <Card sx={{ borderRadius: 3, boxShadow: 3, transition: "transform 0.3s", '&:hover': { transform: "scale(1.05)" } }}>
               <CardContent>
@@ -54,7 +52,6 @@ const About: React.FC = () => {
             </Card>
           </Grid>
 
-          {/* Skills Section */}
           <Grid item xs={12} sm={6} md={4}>
             <Card sx={{ borderRadius: 3, boxShadow: 3, transition: "transform 0.3s", '&:hover': { transform: "scale(1.05)" } }}>
               <CardContent>

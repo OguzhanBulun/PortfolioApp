@@ -87,10 +87,10 @@ const Projects: React.FC = () => {
           gutterBottom
           sx={{
             fontWeight: 600,
-            display: "flex", // Flexbox düzeni kullanıyoruz
-            justifyContent: "center", // Ortada hizalama
-            alignItems: "center", // Dikeyde hizalama
-            width: "100%", // Tam genişlik
+            display: "flex", 
+            justifyContent: "center", 
+            alignItems: "center", 
+            width: "100%", 
           }}
         >
           Projects

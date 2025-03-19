@@ -12,26 +12,26 @@ const Footer: React.FC<FooterProps> = ({ darkMode, toggleTheme }) => {
     <Box
       sx={{
         background: darkMode
-          ? 'linear-gradient(45deg, #121212, #1c1c1c)' // Dark theme arka plan
-          : 'linear-gradient(45deg, #ffffff, #e1e1e1)', // Light theme arka plan
+          ? 'linear-gradient(45deg, #121212, #1c1c1c)' 
+          : 'linear-gradient(45deg, #ffffff, #e1e1e1)', 
         boxShadow: "0 4px 12px rgba(0, 0, 0, 0.2)",
         py: 3,
         mt: 5,
         textAlign: "center",
         borderTop: "1px solid #444",
-        transition: "background 0.3s ease-in-out", // Geçiş efekti ekledik
+        transition: "background 0.3s ease-in-out", 
       }}
     >
       <Typography
         variant="body1"
         sx={{
-          fontFamily: "'Roboto', sans-serif", // Aynı fontu kullanıyoruz
+          fontFamily: "'Roboto', sans-serif", 
           fontWeight: 400,
-          color: darkMode ? "#fff" : "#333", // Tema durumuna göre yazı rengi
+          color: darkMode ? "#fff" : "#333", 
           letterSpacing: "1px",
           textTransform: "uppercase",
           fontSize: "1rem",
-          transition: "color 0.3s ease", // Renk geçişi ekliyoruz
+          transition: "color 0.3s ease", 
         }}
       >
         © 2025 Oguzhan Bulun. All rights reserved.
