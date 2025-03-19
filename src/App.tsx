@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import { Box, CssBaseline, ThemeProvider } from "@mui/material";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -28,6 +28,7 @@ const App: React.FC = () => {
               <Route path="/about" element={<About />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </Box>
           <Footer darkMode={darkMode} toggleTheme={toggleTheme}/>
